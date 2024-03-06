@@ -1,6 +1,5 @@
 package browser;
 
-import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
@@ -10,7 +9,7 @@ import org.testng.annotations.AfterMethod;
 import utilities.ConfigFileReader;
 
 import java.io.File;
-import java.util.concurrent.TimeUnit;
+import java.time.Duration;
 
 public class DriverInstance2 {
     public WebDriver driver;
@@ -19,7 +18,6 @@ public class DriverInstance2 {
         switch (ConfigFileReader.getConfigValues("BROWSER").toLowerCase()) {
 
             case "chrome":
-                WebDriverManager.chromedriver().setup();
                 ChromeOptions chromeOptions = new ChromeOptions();
                 chromeOptions.addArguments("–disable-notifications", "disable-infobars");
                 chromeOptions.addExtensions(new File(System.getProperty("user.dir") + "\\config\\uBlock-Origin.crx"));
@@ -30,18 +28,14 @@ public class DriverInstance2 {
                 //For Headless Execution
                 //options.addArguments("--headless", "--disable-gpu");
 
-                chromeOptions.addArguments("-–disable-popup-blocking");
-
                 driver = new ChromeDriver(chromeOptions);
                 break;
 
             case "firefox":
-                WebDriverManager.firefoxdriver().setup();
                 driver = new FirefoxDriver();
                 break;
 
             case "edge":
-                WebDriverManager.edgedriver().setup();
                 driver = new EdgeDriver();
                 break;
 
@@ -49,7 +43,7 @@ public class DriverInstance2 {
                 throw new Exception("[ERROR] - Incorrect Browser");
         }
         driver.manage().window().maximize();
-        driver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
+        driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(120));
         driver.get(ConfigFileReader.getConfigValues("URL"));
         return driver;
     }
