@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7d10bc4b-0a6c-4092-89c4-8d52f17bba8b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/basicweb/FirstTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/browsers/Chrome.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +45,20 @@
       <recent name="C:\Users\carlos.gomezo\Documents\Mentoring\Proyects\Selenium3_TestNG7\config" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Chrome">
+    <configuration name="Chrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="browsers.Chrome" />
+      <module name="Selenium3_TestNG7" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="browsers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="FirstTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="basicweb.FirstTest" />
       <module name="Selenium3_TestNG7" />
@@ -62,6 +74,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Chrome" />
         <item itemvalue="Application.FirstTest" />
       </list>
     </recent_temporary>
