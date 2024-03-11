@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7d10bc4b-0a6c-4092-89c4-8d52f17bba8b" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="7d10bc4b-0a6c-4092-89c4-8d52f17bba8b" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -44,6 +42,82 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\carlos.gomezo\Documents\Mentoring\Proyects\Selenium3_TestNG7\config" />
     </key>
+  </component>
+  <component name="RunManager" selected="Application.WhereAreTheDrivers">
+    <configuration name="Chrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="browsers.Chrome" />
+      <module name="Selenium3_TestNG7" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="browsers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Edge" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="browsers.Edge" />
+      <module name="Selenium3_TestNG7" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="browsers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Firefox" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="browsers.Firefox" />
+      <module name="Selenium3_TestNG7" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="browsers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FirstTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="basicweb.FirstTest" />
+      <module name="Selenium3_TestNG7" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="basicweb.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WhereAreTheDrivers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="browsers.WhereAreTheDrivers" />
+      <module name="Selenium3_TestNG7" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="browsers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.WhereAreTheDrivers" />
+        <item itemvalue="Application.Edge" />
+        <item itemvalue="Application.Firefox" />
+        <item itemvalue="Application.Chrome" />
+        <item itemvalue="Application.FirstTest" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
