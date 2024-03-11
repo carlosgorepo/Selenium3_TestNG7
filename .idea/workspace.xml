@@ -45,7 +45,7 @@
       <recent name="C:\Users\carlos.gomezo\Documents\Mentoring\Proyects\Selenium3_TestNG7\config" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Edge">
+  <component name="RunManager" selected="Application.WhereAreTheDrivers">
     <configuration name="Chrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="browsers.Chrome" />
       <module name="Selenium3_TestNG7" />
@@ -98,8 +98,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="WhereAreTheDrivers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="browsers.WhereAreTheDrivers" />
+      <module name="Selenium3_TestNG7" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="browsers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.WhereAreTheDrivers" />
         <item itemvalue="Application.Edge" />
         <item itemvalue="Application.Firefox" />
         <item itemvalue="Application.Chrome" />
