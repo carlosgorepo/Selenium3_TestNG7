@@ -4,7 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7d10bc4b-0a6c-4092-89c4-8d52f17bba8b" name="Changes" comment="" />
+    <list default="true" id="7d10bc4b-0a6c-4092-89c4-8d52f17bba8b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/locators/Class.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/locators/Css.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/locators/Id.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/locators/Link_PartialLink.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/locators/Name.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/locators/TagName.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -42,14 +50,17 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\carlos.gomezo\Documents\Mentoring\Proyects\Selenium3_TestNG7\config" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="locators" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.WhereAreTheDrivers">
-    <configuration name="Chrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="browsers.Chrome" />
+  <component name="RunManager" selected="Application.Class">
+    <configuration name="Class" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="locators.Class" />
       <module name="Selenium3_TestNG7" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="browsers.*" />
+          <option name="PATTERN" value="locators.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -83,12 +94,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FirstTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="basicweb.FirstTest" />
+    <configuration name="Link_PartialLink" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="locators.Link_PartialLink" />
       <module name="Selenium3_TestNG7" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="basicweb.*" />
+          <option name="PATTERN" value="locators.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -111,11 +122,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Class" />
+        <item itemvalue="Application.Link_PartialLink" />
         <item itemvalue="Application.WhereAreTheDrivers" />
         <item itemvalue="Application.Edge" />
         <item itemvalue="Application.Firefox" />
-        <item itemvalue="Application.Chrome" />
-        <item itemvalue="Application.FirstTest" />
       </list>
     </recent_temporary>
   </component>
