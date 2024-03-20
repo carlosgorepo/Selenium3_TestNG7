@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7d10bc4b-0a6c-4092-89c4-8d52f17bba8b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/webelementsactions/ClickAndType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/webelementsactions/Dropdown.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/webelementsactions/ElementDisplayed.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/webelementsactions/ElementInsideElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/webelementsactions/ElementsList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -35,14 +37,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/carlos.gomezo/Documents/Mentoring/Proyects/Selenium3_TestNG7/config"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/carlos.gomezo/Documents/Mentoring/Proyects/Selenium3_TestNG7/config&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\carlos.gomezo\Documents\Mentoring\Proyects\Selenium3_TestNG7\config" />
@@ -51,46 +53,7 @@
       <recent name="locators" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ClickAndType.test">
-    <configuration name="Class" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="locators.Class" />
-      <module name="Selenium3_TestNG7" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="locators.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Link_PartialLink" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="locators.Link_PartialLink" />
-      <module name="Selenium3_TestNG7" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="locators.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="WhereAreTheDrivers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="browsers.WhereAreTheDrivers" />
-      <module name="Selenium3_TestNG7" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="browsers.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.ElementsList.test">
     <configuration name="ClickAndType.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Selenium3_TestNG7" />
       <extension name="coverage">
@@ -101,6 +64,54 @@
       </extension>
       <option name="PACKAGE_NAME" value="webelementsactions" />
       <option name="MAIN_CLASS_NAME" value="webelementsactions.ClickAndType" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Dropdown.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Selenium3_TestNG7" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="webelementsactions.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="webelementsactions" />
+      <option name="MAIN_CLASS_NAME" value="webelementsactions.Dropdown" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ElementDisplayed.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Selenium3_TestNG7" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="webelementsactions.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="webelementsactions" />
+      <option name="MAIN_CLASS_NAME" value="webelementsactions.ElementDisplayed" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ElementsList.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Selenium3_TestNG7" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="webelementsactions.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="webelementsactions" />
+      <option name="MAIN_CLASS_NAME" value="webelementsactions.ElementsList" />
       <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -124,11 +135,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ElementsList.test" />
+        <item itemvalue="JUnit.ElementDisplayed.test1" />
+        <item itemvalue="JUnit.Dropdown.test" />
         <item itemvalue="JUnit.ClickAndType.test" />
         <item itemvalue="JUnit.Examples" />
-        <item itemvalue="Application.Class" />
-        <item itemvalue="Application.Link_PartialLink" />
-        <item itemvalue="Application.WhereAreTheDrivers" />
       </list>
     </recent_temporary>
   </component>
