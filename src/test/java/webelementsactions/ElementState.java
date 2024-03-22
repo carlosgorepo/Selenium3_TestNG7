@@ -9,16 +9,15 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
 import java.time.Duration;
-import java.util.List;
 
-public class ElementInsideElement {
+public class ElementState {
 	WebDriver driver;
 	String baseUrl;
 
 	@Before
 	public void setUp() {
 		driver = new FirefoxDriver();
-		baseUrl = "https://www.letskodeit.com/practice";
+		baseUrl = "https://www.google.com/";
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 	}
@@ -26,12 +25,9 @@ public class ElementInsideElement {
 	@Test
 	public void test() {
 		driver.get(baseUrl);
-		WebElement multiSelectExample = driver.findElement(By.id("multiple-select-example"));   // Utilizar un elemento para acotar la búsqueda de otro elemneto
-		List<WebElement> allMultiselectOptions = multiSelectExample.findElements(By.tagName("option"));
-		System.out.println("All Multiselect options are:");
-		for (WebElement allMultiselectOption : allMultiselectOptions) {
-			System.out.println(allMultiselectOption.getText());
-		}
+		WebElement searchTxtBx = driver.findElement(By.name("q"));
+		System.out.println("searchTxtBx is enabled? --> " + searchTxtBx.isEnabled());
+		searchTxtBx.sendKeys("Youtube");
 	}
 
 	@After

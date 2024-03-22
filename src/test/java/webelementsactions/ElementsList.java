@@ -26,7 +26,7 @@ public class ElementsList {
 	@Test
 	public void test() throws InterruptedException {
 		driver.get(baseUrl);
-		List<WebElement> radioButtons = driver.findElements(By.xpath("//input[@type = 'radio']"));
+		List<WebElement> radioButtons = driver.findElements(By.xpath("//input[@type = 'radio']")); // Agruparlos - Colección
 		boolean isChecked = false;
 		for (int i = 0; i < radioButtons.size(); i++) {
 			isChecked = radioButtons.get(i).isSelected();

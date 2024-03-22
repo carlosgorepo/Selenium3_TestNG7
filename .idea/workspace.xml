@@ -5,11 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7d10bc4b-0a6c-4092-89c4-8d52f17bba8b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/webelementsactions/Dropdown.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/webelementsactions/ElementDisplayed.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/webelementsactions/ElementInsideElement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/webelementsactions/ElementsList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/webelementsactions/ElementState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/webelementsactions/MultipleSelect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/webelementsactions/NavigateBetweenPages.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/webelementsactions/RadioButtonsAndCheckboxes.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/webelementsactions/ElementInsideElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/webelementsactions/ElementInsideElement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/webelementsactions/ElementsList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/webelementsactions/ElementsList.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +55,7 @@
       <recent name="locators" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ElementsList.test">
+  <component name="RunManager" selected="JUnit.NavigateBetweenPages.test">
     <configuration name="ClickAndType.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Selenium3_TestNG7" />
       <extension name="coverage">
@@ -118,28 +120,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Examples" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="NavigateBetweenPages.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Selenium3_TestNG7" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="junit.*" />
+          <option name="PATTERN" value="webelementsactions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="junit" />
-      <option name="MAIN_CLASS_NAME" value="junit.Examples" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="webelementsactions" />
+      <option name="MAIN_CLASS_NAME" value="webelementsactions.NavigateBetweenPages" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.NavigateBetweenPages.test" />
         <item itemvalue="JUnit.ElementsList.test" />
         <item itemvalue="JUnit.ElementDisplayed.test1" />
         <item itemvalue="JUnit.Dropdown.test" />
         <item itemvalue="JUnit.ClickAndType.test" />
-        <item itemvalue="JUnit.Examples" />
       </list>
     </recent_temporary>
   </component>
