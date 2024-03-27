@@ -5,10 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7d10bc4b-0a6c-4092-89c4-8d52f17bba8b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/browserprofilesandoptions/ChromeOptionsDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/browserprofilesandoptions/FirefoxProfiles.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/browserprofilesandoptions/extensions/AdBlockExtension.crx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/newselenium4features/OpenNewTab.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +50,7 @@
       <recent name="locators" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.FirefoxProfiles">
+  <component name="RunManager" selected="JUnit.OpenNewWindow">
     <configuration name="ChromeOptionsDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="browserprofilesandoptions.ChromeOptionsDemo" />
       <module name="Selenium3_TestNG7" />
@@ -80,38 +77,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ElementDisplayed.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Selenium3_TestNG7" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="webelementsactions.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="webelementsactions" />
-      <option name="MAIN_CLASS_NAME" value="webelementsactions.ElementDisplayed" />
-      <option name="METHOD_NAME" value="test1" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ElementsList.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Selenium3_TestNG7" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="webelementsactions.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="webelementsactions" />
-      <option name="MAIN_CLASS_NAME" value="webelementsactions.ElementsList" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="NavigateBetweenPages.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Selenium3_TestNG7" />
       <extension name="coverage">
@@ -128,13 +93,43 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="OpenNewTab" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Selenium3_TestNG7" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="newselenium4features.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="newselenium4features" />
+      <option name="MAIN_CLASS_NAME" value="newselenium4features.OpenNewTab" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OpenNewWindow" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Selenium3_TestNG7" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="newselenium4features.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="newselenium4features" />
+      <option name="MAIN_CLASS_NAME" value="newselenium4features.OpenNewWindow" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.OpenNewWindow" />
+        <item itemvalue="JUnit.OpenNewTab" />
         <item itemvalue="Application.FirefoxProfiles" />
         <item itemvalue="Application.ChromeOptionsDemo" />
         <item itemvalue="JUnit.NavigateBetweenPages.test" />
-        <item itemvalue="JUnit.ElementsList.test" />
-        <item itemvalue="JUnit.ElementDisplayed.test1" />
       </list>
     </recent_temporary>
   </component>
