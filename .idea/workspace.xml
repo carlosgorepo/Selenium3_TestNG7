@@ -5,13 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7d10bc4b-0a6c-4092-89c4-8d52f17bba8b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/webelementsactions/ElementState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/webelementsactions/MultipleSelect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/webelementsactions/NavigateBetweenPages.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/webelementsactions/RadioButtonsAndCheckboxes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/browserprofilesandoptions/ChromeOptionsDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/browserprofilesandoptions/FirefoxProfiles.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/browserprofilesandoptions/extensions/AdBlockExtension.crx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/webelementsactions/ElementInsideElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/webelementsactions/ElementInsideElement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/webelementsactions/ElementsList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/webelementsactions/ElementsList.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,51 +36,46 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/carlos.gomezo/Documents/Mentoring/Proyects/Selenium3_TestNG7/config&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/Users/carlos.gomezo/Documents/Mentoring/Proyects/Selenium3_TestNG7/src/test/java/browserprofilesandoptions/extensions"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\carlos.gomezo\Documents\Mentoring\Proyects\Selenium3_TestNG7\src\test\java\browserprofilesandoptions\extensions" />
       <recent name="C:\Users\carlos.gomezo\Documents\Mentoring\Proyects\Selenium3_TestNG7\config" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="locators" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.NavigateBetweenPages.test">
-    <configuration name="ClickAndType.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.FirefoxProfiles">
+    <configuration name="ChromeOptionsDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="browserprofilesandoptions.ChromeOptionsDemo" />
       <module name="Selenium3_TestNG7" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="webelementsactions.*" />
+          <option name="PATTERN" value="browserprofilesandoptions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="webelementsactions" />
-      <option name="MAIN_CLASS_NAME" value="webelementsactions.ClickAndType" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Dropdown.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FirefoxProfiles" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="browserprofilesandoptions.FirefoxProfiles" />
       <module name="Selenium3_TestNG7" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="webelementsactions.*" />
+          <option name="PATTERN" value="browserprofilesandoptions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="webelementsactions" />
-      <option name="MAIN_CLASS_NAME" value="webelementsactions.Dropdown" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -138,11 +130,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FirefoxProfiles" />
+        <item itemvalue="Application.ChromeOptionsDemo" />
         <item itemvalue="JUnit.NavigateBetweenPages.test" />
         <item itemvalue="JUnit.ElementsList.test" />
         <item itemvalue="JUnit.ElementDisplayed.test1" />
-        <item itemvalue="JUnit.Dropdown.test" />
-        <item itemvalue="JUnit.ClickAndType.test" />
       </list>
     </recent_temporary>
   </component>
