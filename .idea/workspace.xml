@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7d10bc4b-0a6c-4092-89c4-8d52f17bba8b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/usefulmethods/Screenshot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/usefulmethods/GetAllLinkStatus.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,9 +51,9 @@
       <recent name="locators" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Screenshot.test">
-    <configuration name="ChromeOptionsDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="browserprofilesandoptions.ChromeOptionsDemo" />
+  <component name="RunManager" selected="JUnit.GetAllLinkStatus.test">
+    <configuration name="FirefoxProfiles" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="browserprofilesandoptions.FirefoxProfiles" />
       <module name="Selenium3_TestNG7" />
       <extension name="coverage">
         <pattern>
@@ -66,15 +65,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FirefoxProfiles" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="browserprofilesandoptions.FirefoxProfiles" />
+    <configuration name="GetAllLinkStatus.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Selenium3_TestNG7" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="browserprofilesandoptions.*" />
+          <option name="PATTERN" value="usefulmethods.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="usefulmethods" />
+      <option name="MAIN_CLASS_NAME" value="usefulmethods.GetAllLinkStatus" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -127,11 +129,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.GetAllLinkStatus.test" />
         <item itemvalue="JUnit.Screenshot.test" />
         <item itemvalue="JUnit.OpenNewWindow" />
         <item itemvalue="JUnit.OpenNewTab" />
         <item itemvalue="Application.FirefoxProfiles" />
-        <item itemvalue="Application.ChromeOptionsDemo" />
       </list>
     </recent_temporary>
   </component>
