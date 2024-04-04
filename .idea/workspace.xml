@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7d10bc4b-0a6c-4092-89c4-8d52f17bba8b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/usefulmethods/GetAllLinkStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/javascrpitexecution/JavaScriptExecution_BasicFLow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/javascrpitexecution/JavaScriptExecution_Click.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/javascrpitexecution/JavaScriptExecution_Scrolling.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -51,20 +53,7 @@
       <recent name="locators" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.GetAllLinkStatus.test">
-    <configuration name="FirefoxProfiles" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="browserprofilesandoptions.FirefoxProfiles" />
-      <module name="Selenium3_TestNG7" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="browserprofilesandoptions.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.JavaScriptExecution_WindowSize.test">
     <configuration name="GetAllLinkStatus.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Selenium3_TestNG7" />
       <extension name="coverage">
@@ -81,17 +70,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OpenNewTab" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="JavaScriptExecution_Scrolling.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Selenium3_TestNG7" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="newselenium4features.*" />
+          <option name="PATTERN" value="javascrpitexecution.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="newselenium4features" />
-      <option name="MAIN_CLASS_NAME" value="newselenium4features.OpenNewTab" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="javascrpitexecution" />
+      <option name="MAIN_CLASS_NAME" value="javascrpitexecution.JavaScriptExecution_Scrolling" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JavaScriptExecution_WindowSize.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Selenium3_TestNG7" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="javascrpitexecution.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="javascrpitexecution" />
+      <option name="MAIN_CLASS_NAME" value="javascrpitexecution.JavaScriptExecution_WindowSize" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -129,11 +135,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.JavaScriptExecution_WindowSize.test" />
+        <item itemvalue="JUnit.JavaScriptExecution_Scrolling.test" />
         <item itemvalue="JUnit.GetAllLinkStatus.test" />
         <item itemvalue="JUnit.Screenshot.test" />
         <item itemvalue="JUnit.OpenNewWindow" />
-        <item itemvalue="JUnit.OpenNewTab" />
-        <item itemvalue="Application.FirefoxProfiles" />
       </list>
     </recent_temporary>
   </component>
