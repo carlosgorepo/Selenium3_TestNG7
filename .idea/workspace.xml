@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7d10bc4b-0a6c-4092-89c4-8d52f17bba8b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/javascrpitexecution/JavaScriptExecution_BasicFLow.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/javascrpitexecution/JavaScriptExecution_Click.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/javascrpitexecution/JavaScriptExecution_Scrolling.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/switchwindowandiframe/SwitchAlert.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/switchwindowandiframe/SwitchIFrame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/switchwindowandiframe/SwitchWindow.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -53,23 +53,7 @@
       <recent name="locators" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.JavaScriptExecution_WindowSize.test">
-    <configuration name="GetAllLinkStatus.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Selenium3_TestNG7" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="usefulmethods.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="usefulmethods" />
-      <option name="MAIN_CLASS_NAME" value="usefulmethods.GetAllLinkStatus" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.SwitchWindow.test1">
     <configuration name="JavaScriptExecution_Scrolling.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Selenium3_TestNG7" />
       <extension name="coverage">
@@ -102,32 +86,49 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OpenNewWindow" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SwitchAlert.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Selenium3_TestNG7" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="newselenium4features.*" />
+          <option name="PATTERN" value="switchwindowandiframe.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="newselenium4features" />
-      <option name="MAIN_CLASS_NAME" value="newselenium4features.OpenNewWindow" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="switchwindowandiframe" />
+      <option name="MAIN_CLASS_NAME" value="switchwindowandiframe.SwitchAlert" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Screenshot.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SwitchIFrame.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Selenium3_TestNG7" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="usefulmethods.*" />
+          <option name="PATTERN" value="switchwindowandiframe.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="usefulmethods" />
-      <option name="MAIN_CLASS_NAME" value="usefulmethods.Screenshot" />
-      <option name="METHOD_NAME" value="test" />
+      <option name="PACKAGE_NAME" value="switchwindowandiframe" />
+      <option name="MAIN_CLASS_NAME" value="switchwindowandiframe.SwitchIFrame" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SwitchWindow.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Selenium3_TestNG7" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="switchwindowandiframe.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="switchwindowandiframe" />
+      <option name="MAIN_CLASS_NAME" value="switchwindowandiframe.SwitchWindow" />
+      <option name="METHOD_NAME" value="test1" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -135,11 +136,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SwitchWindow.test1" />
+        <item itemvalue="JUnit.SwitchAlert.test1" />
+        <item itemvalue="JUnit.SwitchIFrame.test1" />
         <item itemvalue="JUnit.JavaScriptExecution_WindowSize.test" />
         <item itemvalue="JUnit.JavaScriptExecution_Scrolling.test" />
-        <item itemvalue="JUnit.GetAllLinkStatus.test" />
-        <item itemvalue="JUnit.Screenshot.test" />
-        <item itemvalue="JUnit.OpenNewWindow" />
       </list>
     </recent_temporary>
   </component>
