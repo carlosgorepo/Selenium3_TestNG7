@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7d10bc4b-0a6c-4092-89c4-8d52f17bba8b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/switchwindowandiframe/SwitchAlert.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/switchwindowandiframe/SwitchIFrame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/switchwindowandiframe/SwitchWindow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/actionsclass/DragAndDrop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/actionsclass/KeyPressWithActions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/actionsclass/MouseOver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/actionsclass/Slider.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -53,66 +54,66 @@
       <recent name="locators" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.SwitchWindow.test1">
-    <configuration name="JavaScriptExecution_Scrolling.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.Slider.test">
+    <configuration name="DragAndDrop.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Selenium3_TestNG7" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="javascrpitexecution.*" />
+          <option name="PATTERN" value="actionsclass.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="javascrpitexecution" />
-      <option name="MAIN_CLASS_NAME" value="javascrpitexecution.JavaScriptExecution_Scrolling" />
+      <option name="PACKAGE_NAME" value="actionsclass" />
+      <option name="MAIN_CLASS_NAME" value="actionsclass.DragAndDrop" />
       <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JavaScriptExecution_WindowSize.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="KeyPressWithActions.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Selenium3_TestNG7" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="javascrpitexecution.*" />
+          <option name="PATTERN" value="actionsclass.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="javascrpitexecution" />
-      <option name="MAIN_CLASS_NAME" value="javascrpitexecution.JavaScriptExecution_WindowSize" />
+      <option name="PACKAGE_NAME" value="actionsclass" />
+      <option name="MAIN_CLASS_NAME" value="actionsclass.KeyPressWithActions" />
       <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SwitchAlert.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MouseOver.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Selenium3_TestNG7" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="switchwindowandiframe.*" />
+          <option name="PATTERN" value="actionsclass.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="switchwindowandiframe" />
-      <option name="MAIN_CLASS_NAME" value="switchwindowandiframe.SwitchAlert" />
-      <option name="METHOD_NAME" value="test1" />
+      <option name="PACKAGE_NAME" value="actionsclass" />
+      <option name="MAIN_CLASS_NAME" value="actionsclass.MouseOver" />
+      <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SwitchIFrame.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Slider.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Selenium3_TestNG7" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="switchwindowandiframe.*" />
+          <option name="PATTERN" value="actionsclass.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="switchwindowandiframe" />
-      <option name="MAIN_CLASS_NAME" value="switchwindowandiframe.SwitchIFrame" />
-      <option name="METHOD_NAME" value="test1" />
+      <option name="PACKAGE_NAME" value="actionsclass" />
+      <option name="MAIN_CLASS_NAME" value="actionsclass.Slider" />
+      <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -136,11 +137,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Slider.test" />
+        <item itemvalue="JUnit.DragAndDrop.test" />
+        <item itemvalue="JUnit.MouseOver.test" />
+        <item itemvalue="JUnit.KeyPressWithActions.test" />
         <item itemvalue="JUnit.SwitchWindow.test1" />
-        <item itemvalue="JUnit.SwitchAlert.test1" />
-        <item itemvalue="JUnit.SwitchIFrame.test1" />
-        <item itemvalue="JUnit.JavaScriptExecution_WindowSize.test" />
-        <item itemvalue="JUnit.JavaScriptExecution_Scrolling.test" />
       </list>
     </recent_temporary>
   </component>
