@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="info">
+    <Properties>
+        <Property name="basePath">./logs</Property>
+    </Properties>
+    <Appenders>
+        <RollingFile name="File" fileName="${basePath}/app.log" filePattern="${basePath}/app-%d{yyyy-MM-dd}.log">
+            <PatternLayout pattern="%d{HH:mm:ss.SSS} %-5level %c{2} -%msg%n"/>  <!-- Patrón para lo que va dentro del archivo --><!-- Como se formatea o despliegan los logs -->
+            <Policies>
+                <TimeBasedTriggeringPolicy interval="1" modulate="true"/>
+                <SizeBasedTriggeringPolicy size="100 KB"/>  <!-- Tamaño del archivo que quiero que guarde los logs -->
+            </Policies>
+        </RollingFile>
+        <Console name="Console">
+            <PatternLayout pattern="%d{HH:mm:ss.SSS} %-5level %c{1} -%msg%n"/> <!-- Patrón para lo que va dentro de consola -->
+        </Console>
+    </Appenders>
+    <Loggers>
+        <Root level="trace">
+            <AppenderRef ref="File"/>
+        </Root>
+        <Logger name="letskodeit" level="info" additivity="false">
+            <AppenderRef ref="File"/>
+        </Logger>
+        <Logger name="demo" level="debug" additivity="false">  <!-- Tipo de log -->
+            <AppenderRef ref="File"/>                          <!-- Donde se muestra el Log -->
+        </Logger>
+    </Loggers>
+</Configuration>

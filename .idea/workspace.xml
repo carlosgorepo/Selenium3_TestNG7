@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7d10bc4b-0a6c-4092-89c4-8d52f17bba8b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/keypress/KeyPressCombination.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/keypress/KeyPressDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Log4j2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/log4j2/Logging.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,11 +49,14 @@
       <recent name="C:\Users\carlos.gomezo\Documents\Mentoring\Proyects\Selenium3_TestNG7\src\test\java\browserprofilesandoptions\extensions" />
       <recent name="C:\Users\carlos.gomezo\Documents\Mentoring\Proyects\Selenium3_TestNG7\config" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\carlos.gomezo\Documents\Mentoring\Proyects\Selenium3_TestNG7\src\main\resources" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="locators" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.KeyPressDemo.test">
+  <component name="RunManager" selected="JUnit.Logging.test">
     <configuration name="DragAndDrop.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Selenium3_TestNG7" />
       <extension name="coverage">
@@ -85,16 +89,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KeyPressWithActions.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Logging.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Selenium3_TestNG7" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="actionsclass.*" />
+          <option name="PATTERN" value="log4j2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="actionsclass" />
-      <option name="MAIN_CLASS_NAME" value="actionsclass.KeyPressWithActions" />
+      <option name="PACKAGE_NAME" value="log4j2" />
+      <option name="MAIN_CLASS_NAME" value="log4j2.Logging" />
       <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -135,11 +139,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Logging.test" />
         <item itemvalue="JUnit.KeyPressDemo.test" />
         <item itemvalue="JUnit.Slider.test" />
         <item itemvalue="JUnit.DragAndDrop.test" />
         <item itemvalue="JUnit.MouseOver.test" />
-        <item itemvalue="JUnit.KeyPressWithActions.test" />
       </list>
     </recent_temporary>
   </component>
