@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7d10bc4b-0a6c-4092-89c4-8d52f17bba8b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Log4j2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/log4j2/Logging.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/testng/classannotations/TestNG_ClassAnnotations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/testng/softasserts/TestNG_SoftAsserts.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/testng/tests/SomeClassToTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,23 +56,7 @@
       <recent name="locators" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Logging.test">
-    <configuration name="DragAndDrop.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Selenium3_TestNG7" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="actionsclass.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="actionsclass" />
-      <option name="MAIN_CLASS_NAME" value="actionsclass.DragAndDrop" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.TestNG_SoftAsserts.testMethod1">
     <configuration name="KeyPressDemo.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Selenium3_TestNG7" />
       <extension name="coverage">
@@ -105,22 +89,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MouseOver.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Selenium3_TestNG7" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="actionsclass.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="actionsclass" />
-      <option name="MAIN_CLASS_NAME" value="actionsclass.MouseOver" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Slider.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Selenium3_TestNG7" />
       <extension name="coverage">
@@ -137,13 +105,48 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestNG_ClassAnnotations" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Selenium3_TestNG7" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testng.softasserts.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testng.classannotations" />
+      <option name="MAIN_CLASS_NAME" value="testng.classannotations.TestNG_ClassAnnotations" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestNG_SoftAsserts.testMethod1" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Selenium3_TestNG7" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testng.softasserts.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testng.softasserts" />
+      <option name="MAIN_CLASS_NAME" value="testng.softasserts.TestNG_SoftAsserts" />
+      <option name="METHOD_NAME" value="testMethod1" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.TestNG_SoftAsserts.testMethod1" />
+        <item itemvalue="TestNG.TestNG_ClassAnnotations" />
         <item itemvalue="JUnit.Logging.test" />
         <item itemvalue="JUnit.KeyPressDemo.test" />
         <item itemvalue="JUnit.Slider.test" />
-        <item itemvalue="JUnit.DragAndDrop.test" />
-        <item itemvalue="JUnit.MouseOver.test" />
       </list>
     </recent_temporary>
   </component>
