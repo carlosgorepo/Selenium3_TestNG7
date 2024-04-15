@@ -5,14 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7d10bc4b-0a6c-4092-89c4-8d52f17bba8b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/testng/dataprovider/TestNG_DataProviders.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/testng/dataprovider/dataproviderdifferentclass/TestNG_DataProvider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/testng/dataprovider/dataproviderdifferentclass/TestNG_Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/testng/testsuite/TestNG_ExecuteOneOrMoreClasses.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/testng/testsuite/TestNG_ExecuteOneOrMoreTestSuite.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/testng/testsuite/base/BaseTestSuite.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/testng/testsuite/regressionsuite/TestNG_TestClass1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/testng/testsuite/regressionsuite/TestNG_TestClass2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/testng/functionalities/TestNG_DependentTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/testng/functionalities/TestNG_EnableDisableTestAndTimeouts.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/testng/functionalities/TestNG_Priority.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/testng/functionalities/grouping/TestNG_Grouping.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/testng/functionalities/grouping/testng_grouping_groups.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/testng/functionalities/grouping/testng_groups.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/testng/functionalities/preserveorder/TestNG_Preserve1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/testng/functionalities/preserveorder/TestNG_Preserve2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/testng/functionalities/preserveorder/testng_enable_test.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/testng/functionalities/preserveorder/testng_preserve_order.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -46,12 +48,14 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/carlos.gomezo/Documents/Mentoring/Proyects/Selenium3_TestNG7/src/test/java/browserprofilesandoptions/extensions",
+    "last_opened_file_path": "C:/Users/carlos.gomezo/Documents/Mentoring/Proyects/Selenium3_TestNG7/src/test/java/testng/functionalities/preserveorder",
     "settings.editor.selected.configurable": "configurable.group.build"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\carlos.gomezo\Documents\Mentoring\Proyects\Selenium3_TestNG7\src\test\java\testng\functionalities\preserveorder" />
+      <recent name="C:\Users\carlos.gomezo\Documents\Mentoring\Proyects\Selenium3_TestNG7\src\test\java\testng\functionalities\grouping" />
       <recent name="C:\Users\carlos.gomezo\Documents\Mentoring\Proyects\Selenium3_TestNG7\src\test\java\browserprofilesandoptions\extensions" />
       <recent name="C:\Users\carlos.gomezo\Documents\Mentoring\Proyects\Selenium3_TestNG7\config" />
     </key>
@@ -63,10 +67,10 @@
       <recent name="locators" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.C:/Users/carlos.gomezo/Documents/Mentoring/Proyects/Selenium3_TestNG7/src/test/java/testng/testsuite/TestNG_ExecuteOneOrMoreTestSuite.xml">
-    <configuration name="C:/Users/carlos.gomezo/Documents/Mentoring/Proyects/Selenium3_TestNG7/src/test/java/testng/testsuite/TestNG_ExecuteOneOrMoreClasses.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.C:/Users/carlos.gomezo/Documents/Mentoring/Proyects/Selenium3_TestNG7/src/test/java/testng/functionalities/preserveorder/testng_enable_test.xml">
+    <configuration name="C:/Users/carlos.gomezo/Documents/Mentoring/Proyects/Selenium3_TestNG7/src/test/java/testng/functionalities/grouping/testng_groups.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Selenium3_TestNG7" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/java/testng/testsuite/TestNG_ExecuteOneOrMoreClasses.xml" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/java/testng/functionalities/grouping/testng_groups.xml" />
       <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
@@ -74,9 +78,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C:/Users/carlos.gomezo/Documents/Mentoring/Proyects/Selenium3_TestNG7/src/test/java/testng/testsuite/TestNG_ExecuteOneOrMoreTestSuite.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="C:/Users/carlos.gomezo/Documents/Mentoring/Proyects/Selenium3_TestNG7/src/test/java/testng/functionalities/preserveorder/testng_enable_test.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Selenium3_TestNG7" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/java/testng/testsuite/TestNG_ExecuteOneOrMoreTestSuite.xml" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/java/testng/functionalities/preserveorder/testng_enable_test.xml" />
       <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
@@ -84,54 +88,44 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestNG_DataProviders.test" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="C:/Users/carlos.gomezo/Documents/Mentoring/Proyects/Selenium3_TestNG7/src/test/java/testng/functionalities/preserveorder/testng_preserve_order.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Selenium3_TestNG7" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="testng.dataprovider.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="testng.dataprovider" />
-      <option name="MAIN_CLASS_NAME" value="testng.dataprovider.TestNG_DataProviders" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/java/testng/functionalities/preserveorder/testng_preserve_order.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestNG_SoftAsserts.testMethod1" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TestNG_DependentTests" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Selenium3_TestNG7" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="testng.softasserts.*" />
+          <option name="PATTERN" value="testng.functionalities.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="testng.softasserts" />
-      <option name="MAIN_CLASS_NAME" value="testng.softasserts.TestNG_SoftAsserts" />
-      <option name="METHOD_NAME" value="testMethod1" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="PACKAGE_NAME" value="testng.functionalities" />
+      <option name="MAIN_CLASS_NAME" value="testng.functionalities.TestNG_DependentTests" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestNG_Test.test" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TestNG_EnableDisableTestAndTimeouts" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Selenium3_TestNG7" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="testng.dataprovider.dataproviderdifferentclass.*" />
+          <option name="PATTERN" value="testng.functionalities.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="testng.dataprovider.dataproviderdifferentclass" />
-      <option name="MAIN_CLASS_NAME" value="testng.dataprovider.dataproviderdifferentclass.TestNG_Test" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="PACKAGE_NAME" value="testng.functionalities" />
+      <option name="MAIN_CLASS_NAME" value="testng.functionalities.TestNG_EnableDisableTestAndTimeouts" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
@@ -140,11 +134,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.C:/Users/carlos.gomezo/Documents/Mentoring/Proyects/Selenium3_TestNG7/src/test/java/testng/testsuite/TestNG_ExecuteOneOrMoreTestSuite.xml" />
-        <item itemvalue="TestNG.C:/Users/carlos.gomezo/Documents/Mentoring/Proyects/Selenium3_TestNG7/src/test/java/testng/testsuite/TestNG_ExecuteOneOrMoreClasses.xml" />
-        <item itemvalue="TestNG.TestNG_Test.test" />
-        <item itemvalue="TestNG.TestNG_DataProviders.test" />
-        <item itemvalue="TestNG.TestNG_SoftAsserts.testMethod1" />
+        <item itemvalue="TestNG.C:/Users/carlos.gomezo/Documents/Mentoring/Proyects/Selenium3_TestNG7/src/test/java/testng/functionalities/preserveorder/testng_enable_test.xml" />
+        <item itemvalue="TestNG.C:/Users/carlos.gomezo/Documents/Mentoring/Proyects/Selenium3_TestNG7/src/test/java/testng/functionalities/preserveorder/testng_preserve_order.xml" />
+        <item itemvalue="TestNG.C:/Users/carlos.gomezo/Documents/Mentoring/Proyects/Selenium3_TestNG7/src/test/java/testng/functionalities/grouping/testng_groups.xml" />
+        <item itemvalue="TestNG.TestNG_DependentTests" />
+        <item itemvalue="TestNG.TestNG_EnableDisableTestAndTimeouts" />
       </list>
     </recent_temporary>
   </component>

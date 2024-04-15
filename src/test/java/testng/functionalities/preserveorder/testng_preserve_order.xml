@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Preserve Order Test Suite">
+   <test name="Test 1" preserve-order="false">
+        <classes>
+            <class name="testng.functionalities.preserveorder.TestNG_Preserve2"></class>
+            <class name="testng.functionalities.preserveorder.TestNG_Preserve1"></class>
+        </classes>
+    </test>
+</suite>
