@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Parameters Test Suite">
+    <!--  <parameter name="browser" value="firefox"></parameter>  parametros pueden estar a nivel de suite -->
+    <test name="Test 1">
+        <parameter name="browser" value="firefox"></parameter>  <!-- Clave Valor -->
+        <parameter name="platform" value="mac"></parameter>     <!-- Parameter no puede estar a nivel de clase -->
+        <parameter name="response" value="201"></parameter>  <!-- Valor puede ser diferente tipo de dato se define en la clase -->
+        <classes>
+            <class name="testng.testparameters.TestNG_TestParameters"></class>
+        </classes>
+    </test>
+</suite>

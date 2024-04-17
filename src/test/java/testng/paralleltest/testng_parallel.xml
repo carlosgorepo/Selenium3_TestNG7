@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Parallel Test Suite" parallel="tests" thread-count="2"> <!-- para test en paralelo, definir si es test/classes y en el thread count definimos cuantos hilos corren al tiempo del parallel que definimos. Es decir al aumentar el count thread 3 hace que corra 3 tags de test al tiempo, no es que corra más @test de 2 tags test-->
+    <test name="Test 1">
+        <classes>
+            <class name="testng.paralleltest.TestNG_TestParallel1"></class>
+        </classes>
+    </test>
+    <test name="Test 2">
+        <classes>
+            <class name="testng.paralleltest.TestNG_TestParallel2"></class>
+        </classes>
+    </test>
+</suite>

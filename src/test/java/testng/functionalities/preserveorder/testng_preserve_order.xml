@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Preserve Order Test Suite">
-   <test name="Test 1" preserve-order="false">
+   <test name="Test 1" preserve-order="false">  <!-- con preserve-order = "false" el corre las clases de forma alfabetica no por orden de entrada -->
         <classes>
             <class name="testng.functionalities.preserveorder.TestNG_Preserve2"></class>
             <class name="testng.functionalities.preserveorder.TestNG_Preserve1"></class>
