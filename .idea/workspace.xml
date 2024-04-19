@@ -5,15 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7d10bc4b-0a6c-4092-89c4-8d52f17bba8b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/testng/paralleltest/TestNG_TestParallel1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/testng/paralleltest/TestNG_TestParallel2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/testng/paralleltest/testng_parallel.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/testng/report/TestNG_ReportsAndLogs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/testng/report/testng_report.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/testng/testparameters/TestNG_TestParameters.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/testng/testparameters/testng_parameters.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/testng/listeners/iinvokedmethod/IInvokeMethodListenerImplementation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/testng/listeners/iinvokedmethod/TestNG_InvokeMethodUse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/testng/listeners/iinvokedmethod/testng_IInvokedMethod.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/testng/functionalities/preserveorder/testng_preserve_order.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testng/functionalities/preserveorder/testng_preserve_order.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,17 +41,17 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/carlos.gomezo/Documents/Mentoring/Proyects/Selenium3_TestNG7/src/test/java/testng/report",
+    "last_opened_file_path": "C:/Users/carlos.gomezo/Documents/Mentoring/Proyects/Selenium3_TestNG7/src/test/java/testng/listeners/iinvokedmethod",
     "settings.editor.selected.configurable": "configurable.group.build"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\carlos.gomezo\Documents\Mentoring\Proyects\Selenium3_TestNG7\src\test\java\testng\listeners\iinvokedmethod" />
       <recent name="C:\Users\carlos.gomezo\Documents\Mentoring\Proyects\Selenium3_TestNG7\src\test\java\testng\report" />
       <recent name="C:\Users\carlos.gomezo\Documents\Mentoring\Proyects\Selenium3_TestNG7\src\test\java\testng\testparameters" />
       <recent name="C:\Users\carlos.gomezo\Documents\Mentoring\Proyects\Selenium3_TestNG7\src\test\java\testng\paralleltest" />
       <recent name="C:\Users\carlos.gomezo\Documents\Mentoring\Proyects\Selenium3_TestNG7\src\test\java\testng\functionalities\preserveorder" />
-      <recent name="C:\Users\carlos.gomezo\Documents\Mentoring\Proyects\Selenium3_TestNG7\src\test\java\testng\functionalities\grouping" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\carlos.gomezo\Documents\Mentoring\Proyects\Selenium3_TestNG7\src\test\java\testng\testsuite" />
@@ -66,10 +61,10 @@
       <recent name="locators" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.C:/Users/carlos.gomezo/Documents/Mentoring/Proyects/Selenium3_TestNG7/src/test/java/testng/report/testng_report.xml">
-    <configuration name="C:/Users/carlos.gomezo/Documents/Mentoring/Proyects/Selenium3_TestNG7/src/test/java/testng/functionalities/preserveorder/testng_enable_test.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.C:/Users/carlos.gomezo/Documents/Mentoring/Proyects/Selenium3_TestNG7/src/test/java/testng/listeners/iinvokedmethod/testng_IInvokedMethod.xml">
+    <configuration name="C:/Users/carlos.gomezo/Documents/Mentoring/Proyects/Selenium3_TestNG7/src/test/java/testng/listeners/iinvokedmethod/testng_IInvokedMethod.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Selenium3_TestNG7" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/java/testng/functionalities/preserveorder/testng_enable_test.xml" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/java/testng/listeners/iinvokedmethod/testng_IInvokedMethod.xml" />
       <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
@@ -145,7 +140,7 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="TestNG.C:/Users/carlos.gomezo/Documents/Mentoring/Proyects/Selenium3_TestNG7/src/test/java/testng/functionalities/preserveorder/testng_enable_test.xml" />
+      <item itemvalue="TestNG.C:/Users/carlos.gomezo/Documents/Mentoring/Proyects/Selenium3_TestNG7/src/test/java/testng/listeners/iinvokedmethod/testng_IInvokedMethod.xml" />
       <item itemvalue="TestNG.C:/Users/carlos.gomezo/Documents/Mentoring/Proyects/Selenium3_TestNG7/src/test/java/testng/paralleltest/testng_parallel.xml" />
       <item itemvalue="TestNG.C:/Users/carlos.gomezo/Documents/Mentoring/Proyects/Selenium3_TestNG7/src/test/java/testng/report/testng_report.xml" />
       <item itemvalue="TestNG.C:/Users/carlos.gomezo/Documents/Mentoring/Proyects/Selenium3_TestNG7/src/test/java/testng/testparameters/testng_parameters.xml" />
@@ -153,11 +148,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.C:/Users/carlos.gomezo/Documents/Mentoring/Proyects/Selenium3_TestNG7/src/test/java/testng/listeners/iinvokedmethod/testng_IInvokedMethod.xml" />
         <item itemvalue="TestNG.C:/Users/carlos.gomezo/Documents/Mentoring/Proyects/Selenium3_TestNG7/src/test/java/testng/report/testng_report.xml" />
         <item itemvalue="TestNG.C:/Users/carlos.gomezo/Documents/Mentoring/Proyects/Selenium3_TestNG7/src/test/java/testng/testparameters/testng_parameters.xml" />
         <item itemvalue="TestNG.TestNG_TestParameters.test1" />
         <item itemvalue="TestNG.C:/Users/carlos.gomezo/Documents/Mentoring/Proyects/Selenium3_TestNG7/src/test/java/testng/paralleltest/testng_parallel.xml" />
-        <item itemvalue="TestNG.C:/Users/carlos.gomezo/Documents/Mentoring/Proyects/Selenium3_TestNG7/src/test/java/testng/functionalities/preserveorder/testng_enable_test.xml" />
       </list>
     </recent_temporary>
   </component>
