@@ -1,14 +1,13 @@
-package testng.listeners.iinvokedmethod;
+package testng.listeners.isuite;
 
 import org.testng.Assert;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
-import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
-@Listeners(IInvokeMethodListenerImplementation.class) // Para hacer uso de los listeners que modificamos, y le damos la ruta con el .class para indicar que listeners son
+// @Listeners(ISuiteListenerImplementation.class)  // Para hacer uso de los listeners que modificamos, y le damos la ruta con el .class para indicar que listeners son
 
-public class TestNG_InvokeMethodUse {
+public class TestNG_ISuiteUse {
 
 	@BeforeClass
 	public void setUp() {

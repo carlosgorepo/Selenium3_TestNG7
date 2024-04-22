@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Listeners Test Suite">
+    <listeners>  <!--Puedo agregar cuantos listeners quiera y ellos van a ser aplicados a todas las pruebas, no solo de la suite como en este caso, Solo a nivel de Suite?? -->
+        <listener class-name="testng.listeners.isuite.ISuiteListenerImplementation"></listener>
+    </listeners>
+    <test name="Application Test 1">
+        <classes>
+            <class name="testng.listeners.isuite.TestNG_ISuiteUse"></class>
+        </classes>
+    </test>
+    <test name="Application Test 2">
+        <classes>
+            <class name="testng.listeners.isuite.TestNG_ISuiteUse"></class>
+        </classes>
+    </test>
+</suite>

@@ -1,10 +1,10 @@
 package testng.functionalities;
 
+import testng.tests.SomeClassToTest;
 import org.testng.Assert;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
-import testng.tests.SomeClassToTest;
 
 public class TestNG_DependentTests {
 	SomeClassToTest obj;

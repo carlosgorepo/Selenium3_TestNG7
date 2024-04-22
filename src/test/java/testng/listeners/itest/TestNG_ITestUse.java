@@ -1,14 +1,11 @@
-package testng.listeners.iinvokedmethod;
+package testng.listeners.itest;
 
 import org.testng.Assert;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
-import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
-@Listeners(IInvokeMethodListenerImplementation.class) // Para hacer uso de los listeners que modificamos, y le damos la ruta con el .class para indicar que listeners son
-
-public class TestNG_InvokeMethodUse {
+public class TestNG_ITestUse {
 
 	@BeforeClass
 	public void setUp() {
@@ -29,6 +26,7 @@ public class TestNG_InvokeMethodUse {
 
 	@AfterClass
 	public void cleanUp() {
+
 		System.out.println("Code in After Class");
 	}
 }

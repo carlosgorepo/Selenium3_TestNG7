@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Listeners Test Suite">
+    <listeners>
+        <listener class-name="testng.listeners.itest.ITestListenerImplementation"></listener>
+    </listeners>
+    <test name="Application Test 1">
+        <classes>
+            <class name="testng.listeners.itest.TestNG_ITestUse"></class>
+        </classes>
+    </test>
+    <test name="Application Test 2">
+        <classes>
+            <class name="testng.listeners.itest.TestNG_ITestUse"></class>
+        </classes>
+    </test>
+</suite>
