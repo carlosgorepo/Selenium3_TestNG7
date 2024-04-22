@@ -5,46 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7d10bc4b-0a6c-4092-89c4-8d52f17bba8b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/browsers/testng/listeners/isuite/ISuiteListenerImplementation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/browsers/testng/listeners/isuite/TestNG_ISuiteUse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/browsers/testng/listeners/isuite/testng_ISuite.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/browsers/testng/listeners/itest/ITestListenerImplementation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/browsers/testng/listeners/itest/TestNG_ITestUse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/browsers/testng/listeners/itest/testng_ITest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/browsers/testng/listeners/itestresult/TestNG_ScreenshotOnFailure.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/browsers/testng/listeners/severallistenersinone/TestNG_SeveralListenersImplementation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/testng/listeners/isuite/ISuiteListenerImplementation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/testng/listeners/isuite/TestNG_ISuiteUse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/testng/listeners/isuite/testng_ISuite.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/testng/listeners/itest/ITestListenerImplementation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/testng/listeners/itest/TestNG_ITestUse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/testng/listeners/itest/testng_ITest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/testng/listeners/itestresult/TestNG_ScreenshotOnFailure.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/testng/listeners/severallistenersinone/TestNG_SeveralListenersImplementation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/testng/classannotations/TestNG_ClassAnnotations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/browsers/testng/classannotations/TestNG_ClassAnnotations.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/testng/dataprovider/TestNG_DataProviders.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/browsers/testng/dataprovider/TestNG_DataProviders.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/testng/dataprovider/dataproviderdifferentclass/TestNG_DataProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/browsers/testng/dataprovider/dataproviderdifferentclass/TestNG_DataProvider.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/testng/dataprovider/dataproviderdifferentclass/TestNG_Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/browsers/testng/dataprovider/dataproviderdifferentclass/TestNG_Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/testng/functionalities/TestNG_DependentTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/browsers/testng/functionalities/TestNG_DependentTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/testng/functionalities/TestNG_EnableDisableTestAndTimeouts.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/browsers/testng/functionalities/TestNG_EnableDisableTestAndTimeouts.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/testng/functionalities/TestNG_Priority.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/browsers/testng/functionalities/TestNG_Priority.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/testng/functionalities/grouping/TestNG_Grouping.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/browsers/testng/functionalities/grouping/TestNG_Grouping.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/testng/functionalities/grouping/testng_grouping_groups.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/browsers/testng/functionalities/grouping/testng_grouping_groups.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/testng/functionalities/grouping/testng_groups.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/browsers/testng/functionalities/grouping/testng_groups.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/testng/functionalities/preserveorder/TestNG_Preserve1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/browsers/testng/functionalities/preserveorder/TestNG_Preserve1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/testng/functionalities/preserveorder/TestNG_Preserve2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/browsers/testng/functionalities/preserveorder/TestNG_Preserve2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/testng/functionalities/preserveorder/testng_enable_test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/browsers/testng/functionalities/preserveorder/testng_enable_test.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/testng/functionalities/preserveorder/testng_preserve_order.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/browsers/testng/functionalities/preserveorder/testng_preserve_order.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/testng/listeners/iinvokedmethod/IInvokeMethodListenerImplementation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/browsers/testng/listeners/iinvokedmethod/IInvokeMethodListenerImplementation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/testng/listeners/iinvokedmethod/TestNG_InvokeMethodUse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/browsers/testng/listeners/iinvokedmethod/TestNG_InvokeMethodUse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/testng/listeners/iinvokedmethod/testng_IInvokedMethod.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/browsers/testng/listeners/iinvokedmethod/testng_IInvokedMethod.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/testng/paralleltest/TestNG_TestParallel1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/browsers/testng/paralleltest/TestNG_TestParallel1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/testng/paralleltest/TestNG_TestParallel2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/browsers/testng/paralleltest/TestNG_TestParallel2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/testng/paralleltest/testng_parallel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/browsers/testng/paralleltest/testng_parallel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/testng/report/TestNG_ReportsAndLogs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/browsers/testng/report/TestNG_ReportsAndLogs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/testng/report/testng_report.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/browsers/testng/report/testng_report.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/testng/softasserts/TestNG_SoftAsserts.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/browsers/testng/softasserts/TestNG_SoftAsserts.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/testng/testparameters/TestNG_TestParameters.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/browsers/testng/testparameters/TestNG_TestParameters.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/testng/testparameters/testng_parameters.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/browsers/testng/testparameters/testng_parameters.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/testng/tests/SomeClassToTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/browsers/testng/tests/SomeClassToTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/testng/testsuite/TestNG_ExecuteOneOrMoreClasses.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/browsers/testng/testsuite/TestNG_ExecuteOneOrMoreClasses.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/testng/testsuite/TestNG_ExecuteOneOrMoreTestSuite.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/browsers/testng/testsuite/TestNG_ExecuteOneOrMoreTestSuite.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/testng/testsuite/base/BaseTestSuite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/browsers/testng/testsuite/base/BaseTestSuite.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/testng/testsuite/regressionsuite/TestNG_TestClass1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/browsers/testng/testsuite/regressionsuite/TestNG_TestClass1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/testng/testsuite/regressionsuite/TestNG_TestClass2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/browsers/testng/testsuite/regressionsuite/TestNG_TestClass2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testng/functionalities/TestNG_DependentTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testng/functionalities/TestNG_DependentTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testng/functionalities/TestNG_EnableDisableTestAndTimeouts.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testng/functionalities/TestNG_EnableDisableTestAndTimeouts.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testng/listeners/iinvokedmethod/IInvokeMethodListenerImplementation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testng/listeners/iinvokedmethod/IInvokeMethodListenerImplementation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testng/listeners/iinvokedmethod/TestNG_InvokeMethodUse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testng/listeners/iinvokedmethod/TestNG_InvokeMethodUse.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
