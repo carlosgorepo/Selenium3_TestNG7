@@ -5,19 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7d10bc4b-0a6c-4092-89c4-8d52f17bba8b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/testng/listeners/isuite/ISuiteListenerImplementation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/testng/listeners/isuite/TestNG_ISuiteUse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/testng/listeners/isuite/testng_ISuite.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/testng/listeners/itest/ITestListenerImplementation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/testng/listeners/itest/TestNG_ITestUse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/testng/listeners/itest/testng_ITest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/testng/listeners/itestresult/TestNG_ScreenshotOnFailure.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/testng/listeners/severallistenersinone/TestNG_SeveralListenersImplementation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/datadriven/ExcelRead.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/datadriven/ExcelReadBasic.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/testng/functionalities/TestNG_DependentTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testng/functionalities/TestNG_DependentTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/testng/functionalities/TestNG_EnableDisableTestAndTimeouts.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testng/functionalities/TestNG_EnableDisableTestAndTimeouts.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/testng/listeners/iinvokedmethod/IInvokeMethodListenerImplementation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testng/listeners/iinvokedmethod/IInvokeMethodListenerImplementation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/testng/listeners/iinvokedmethod/TestNG_InvokeMethodUse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testng/listeners/iinvokedmethod/TestNG_InvokeMethodUse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,17 +41,17 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/carlos.gomezo/Documents/Mentoring/Proyects/Selenium3_TestNG7/src/test/java/testng/listeners/itest",
-    "settings.editor.selected.configurable": "configurable.group.build"
+    "last_opened_file_path": "C:/Users/carlos.gomezo/Documents/Mentoring/Proyects/Selenium3_TestNG7/src/test/java/datadriven",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\carlos.gomezo\Documents\Mentoring\Proyects\Selenium3_TestNG7\src\test\java\datadriven" />
       <recent name="C:\Users\carlos.gomezo\Documents\Mentoring\Proyects\Selenium3_TestNG7\src\test\java\testng\listeners\itest" />
       <recent name="C:\Users\carlos.gomezo\Documents\Mentoring\Proyects\Selenium3_TestNG7\src\test\java\testng\listeners\isuite" />
       <recent name="C:\Users\carlos.gomezo\Documents\Mentoring\Proyects\Selenium3_TestNG7\src\test\java\testng\listeners\iinvokedmethod" />
       <recent name="C:\Users\carlos.gomezo\Documents\Mentoring\Proyects\Selenium3_TestNG7\src\test\java\testng\report" />
-      <recent name="C:\Users\carlos.gomezo\Documents\Mentoring\Proyects\Selenium3_TestNG7\src\test\java\testng\testparameters" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\carlos.gomezo\Documents\Mentoring\Proyects\Selenium3_TestNG7\src\test\java\testng\testsuite" />
@@ -70,7 +61,20 @@
       <recent name="locators" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.TestNG_ScreenshotOnFailure.testLogin">
+  <component name="RunManager" selected="Application.ExcelReadBasic">
+    <configuration name="ExcelReadBasic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="datadriven.ExcelReadBasic" />
+      <module name="Selenium3_TestNG7" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="datadriven.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="C:/Users/carlos.gomezo/Documents/Mentoring/Proyects/Selenium3_TestNG7/src/test/java/testng/listeners/iinvokedmethod/testng_IInvokedMethod.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Selenium3_TestNG7" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/java/testng/listeners/iinvokedmethod/testng_IInvokedMethod.xml" />
@@ -101,26 +105,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C:/Users/carlos.gomezo/Documents/Mentoring/Proyects/Selenium3_TestNG7/src/test/java/testng/report/testng_report.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Selenium3_TestNG7" />
-      <shortenClasspath name="NONE" />
-      <useClassPathOnly />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/java/testng/report/testng_report.xml" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="GROUP_NAME" value="" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <option name="PARAMETERS" value="" />
-      <option name="OUTPUT_DIRECTORY" value="" />
-      <option name="USE_DEFAULT_REPORTERS" value="true" />
-      <option name="PROPERTIES_FILE" value="" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="TestNG_ScreenshotOnFailure.testLogin" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Selenium3_TestNG7" />
       <extension name="coverage">
@@ -140,19 +124,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.ExcelReadBasic" />
       <item itemvalue="TestNG.C:/Users/carlos.gomezo/Documents/Mentoring/Proyects/Selenium3_TestNG7/src/test/java/testng/listeners/isuite/testng_ISuite.xml" />
       <item itemvalue="TestNG.C:/Users/carlos.gomezo/Documents/Mentoring/Proyects/Selenium3_TestNG7/src/test/java/testng/listeners/itest/testng_ITest.xml" />
       <item itemvalue="TestNG.TestNG_ScreenshotOnFailure.testLogin" />
       <item itemvalue="TestNG.C:/Users/carlos.gomezo/Documents/Mentoring/Proyects/Selenium3_TestNG7/src/test/java/testng/listeners/iinvokedmethod/testng_IInvokedMethod.xml" />
-      <item itemvalue="TestNG.C:/Users/carlos.gomezo/Documents/Mentoring/Proyects/Selenium3_TestNG7/src/test/java/testng/report/testng_report.xml" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ExcelReadBasic" />
         <item itemvalue="TestNG.TestNG_ScreenshotOnFailure.testLogin" />
         <item itemvalue="TestNG.C:/Users/carlos.gomezo/Documents/Mentoring/Proyects/Selenium3_TestNG7/src/test/java/testng/listeners/itest/testng_ITest.xml" />
         <item itemvalue="TestNG.C:/Users/carlos.gomezo/Documents/Mentoring/Proyects/Selenium3_TestNG7/src/test/java/testng/listeners/isuite/testng_ISuite.xml" />
         <item itemvalue="TestNG.C:/Users/carlos.gomezo/Documents/Mentoring/Proyects/Selenium3_TestNG7/src/test/java/testng/listeners/iinvokedmethod/testng_IInvokedMethod.xml" />
-        <item itemvalue="TestNG.C:/Users/carlos.gomezo/Documents/Mentoring/Proyects/Selenium3_TestNG7/src/test/java/testng/report/testng_report.xml" />
       </list>
     </recent_temporary>
   </component>
